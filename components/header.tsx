@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
 
@@ -17,16 +18,17 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-primary text-primary-foreground border-b-2 border-accent shadow-lg">
-      <nav className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
+      <nav className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-            <span className="text-primary font-bold text-lg">H</span>
-          </div>
-          <div className="hidden sm:block">
-            <div className="font-heading font-bold text-lg leading-none">HMCBP</div>
-            <div className="text-xs font-light text-accent">Theatre & Events</div>
-          </div>
+        <Link href="/" className="flex items-center gap-2 group hover:opacity-90 transition-opacity">
+          <Image
+            src="/logo.png"
+            alt="HMCBP LTD Logo"
+            width={120}
+            height={50}
+            className="h-12 w-auto"
+            priority
+          />
         </Link>
 
         {/* Desktop Navigation */}

@@ -16,10 +16,8 @@ export default function Footer() {
             <p className="text-sm text-primary-foreground/80">
               Premium theatre production and international event promotion company with UK and Spanish operations.
             </p>
-            <div className="flex gap-4 pt-4">
-              <a href="https://www.linkedin.com/company/hmcbp-ltd/" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors text-sm">
-                LinkedIn
-              </a>
+            <div className="text-sm text-primary-foreground/80">
+              <p>www.hmcbpltd.net</p>
             </div>
           </div>
 
@@ -56,8 +54,8 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex gap-3 items-start">
                 <Mail size={16} className="mt-0.5 flex-shrink-0" />
-                <a href="mailto:contact@hmcbp.co.uk" className="hover:text-accent transition-colors">
-                  contact@hmcbp.co.uk
+                <a href="mailto:info@hmcbpltd.net" className="hover:text-accent transition-colors">
+                  info@hmcbpltd.net
                 </a>
               </li>
               <li className="flex gap-3 items-start">

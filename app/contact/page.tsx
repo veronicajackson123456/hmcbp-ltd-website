@@ -67,10 +67,10 @@ export default function Contact() {
                 <div>
                   <h3 className="font-heading font-bold text-primary mb-1">Email</h3>
                   <a
-                    href="mailto:contact@hmcbp.co.uk"
+                    href="mailto:info@hmcbpltd.net"
                     className="text-muted-foreground hover:text-accent transition-colors"
                   >
-                    contact@hmcbp.co.uk
+                    info@hmcbpltd.net
                   </a>
                 </div>
               </div>
@@ -120,18 +120,10 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Social/Links */}
+            {/* Partnerships */}
             <div className="pt-8 border-t border-border">
-              <h3 className="font-heading font-bold text-primary mb-4">Connect With Us</h3>
+              <h3 className="font-heading font-bold text-primary mb-4">Our Initiatives</h3>
               <div className="space-y-3">
-                <a
-                  href="https://www.linkedin.com/company/hmcbp-ltd/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="block text-muted-foreground hover:text-accent transition-colors"
-                >
-                  → LinkedIn
-                </a>
                 <a
                   href="https://salorgullo.com"
                   target="_blank"
@@ -303,7 +295,7 @@ export default function Contact() {
             Contact us today and let&apos;s start the conversation about your next project.
           </p>
           <a
-            href="mailto:contact@hmcbp.co.uk"
+            href="mailto:info@hmcbpltd.net"
             className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
           >
             Email Us Now

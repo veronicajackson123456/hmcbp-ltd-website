@@ -1,6 +1,7 @@
 'use client'
 
 import Link from 'next/link'
+import Image from 'next/image'
 import { Mail, Phone, MapPin } from 'lucide-react'
 
 export default function Footer() {
@@ -12,7 +13,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="font-heading font-bold text-xl text-accent">HMCBP LTD</div>
+            <Link href="/" className="inline-block hover:opacity-90 transition-opacity">
+              <Image
+                src="/logo-gold.png"
+                alt="HMCBP LTD"
+                width={140}
+                height={60}
+                className="h-16 w-auto"
+              />
+            </Link>
             <p className="text-sm text-primary-foreground/80">
               Premium theatre production and international event promotion company with UK and Spanish operations.
             </p>
@@ -43,6 +52,11 @@ export default function Footer() {
               <li>
                 <Link href="/services" className="hover:text-accent transition-colors">
                   Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/sponsors" className="hover:text-accent transition-colors">
+                  Sponsors & Partners
                 </Link>
               </li>
             </ul>

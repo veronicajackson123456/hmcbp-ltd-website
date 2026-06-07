@@ -14,7 +14,6 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: 'HMCBP LTD - Theatre Production & Event Promotion',
   description: 'Premium UK theatre production and international event promotion company. Salo Orgullo 5th Edition 2026.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

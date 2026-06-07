@@ -7,79 +7,62 @@ import { Check } from 'lucide-react'
 export default function Sponsors() {
   const sponsors = [
     {
-      name: 'Variete Quintana',
-      category: 'Featured Partner',
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20194357-dwPbxO6DfPpouygb1DJILuaogvlrWS.png',
-      description: 'Cultural venue and entertainment partner',
-    },
-    {
       name: 'Cervezas Victoria',
-      category: 'Beverage Partner',
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20194357-dwPbxO6DfPpouygb1DJILuaogvlrWS.png',
-      description: 'Official beverage sponsor of Salo Orgullo',
-    },
-    {
-      name: 'Coca-Cola',
-      category: 'Global Partner',
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20194357-dwPbxO6DfPpouygb1DJILuaogvlrWS.png',
-      description: 'Premium refreshment partner',
+      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20200807-3wnB6XRbSszSrEaFo4qK49eOz26ukE.png',
     },
     {
       name: 'Barceló Ron Dominicano',
-      category: 'Premium Partner',
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20194357-dwPbxO6DfPpouygb1DJILuaogvlrWS.png',
-      description: 'Premium spirits and hospitality partner',
+      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20200829-gXhP2J6l0kB9YMTGxxC2dmP5QMFku2.png',
+    },
+    {
+      name: 'Nyoman',
+      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20200802-KwAZW0jp1ymMWXexQdgXdmC9PyHulN.png',
+    },
+    {
+      name: 'Coca-Cola',
+      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20200919-BC0leCna2ahNGzFkB6XkK7oBfky8A5.png',
     },
     {
       name: 'Salobreña Municipality',
-      category: 'Strategic Partner',
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20194420-rypc6Uv4KZU5qU84IiN3A2xx8vS7Ic.png',
-      description: 'Host city and municipal partner',
+      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20200812-ZgIKb650r7G6oYVbgJ7CsP4hqerf6v.png',
     },
     {
-      name: 'Nyoman Productions',
-      category: 'Production Partner',
-      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20194420-rypc6Uv4KZU5qU84IiN3A2xx8vS7Ic.png',
-      description: 'Creative production partner',
+      name: 'Variete Quintana',
+      logo: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202026-06-07%20194357-dwPbxO6DfPpouygb1DJILuaogvlrWS.png',
     },
   ]
 
   const sponsorshipTiers = [
     {
       name: 'Platinum Partner',
-      price: 'Custom',
+      price: 'Custom Pricing',
       benefits: [
         'Premium branding on all materials',
         'VIP hospitality for 20 guests',
         'Exclusive naming rights to festival stage',
-        'Digital and print advertising',
         'Speaking opportunity at festival',
-        'Year-round partnership visibility',
         'Dedicated partnership manager',
       ],
     },
     {
       name: 'Gold Partner',
-      price: 'Custom',
+      price: 'Custom Pricing',
       benefits: [
         'Prominent branding on materials',
         'VIP hospitality for 10 guests',
         'Logo placement at festival venues',
         'Social media promotion',
         'Press release inclusion',
-        'Partnership documentation',
-        'Festival pass allocations',
       ],
     },
     {
       name: 'Silver Partner',
-      price: 'Custom',
+      price: 'Custom Pricing',
       benefits: [
         'Brand recognition in materials',
         'VIP hospitality for 5 guests',
         'Logo on website and program',
         'Social media mentions',
-        'Partnership recognition',
         'Festival ticket benefits',
       ],
     },
@@ -98,19 +81,19 @@ export default function Sponsors() {
           />
         </div>
         <div className="relative z-10 text-center space-y-4 px-6">
-          <h1 className="font-heading text-5xl md:text-6xl font-bold">Promote & Sponsor</h1>
+          <h1 className="font-heading text-5xl md:text-6xl font-bold">Our Partners</h1>
           <p className="text-xl text-primary-foreground/90">
-            Partner with Salo Orgullo and HMCBP LTD
+            Supporting Excellence in Arts and Culture
           </p>
         </div>
       </section>
 
-      {/* Featured Sponsors */}
+      {/* Featured Sponsors Grid */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
         <div className="text-center mb-16 space-y-4">
-          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary">Our Partners</h2>
+          <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary">Salo Orgullo Partners</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Trusted organizations supporting excellence in arts and culture
+            Leading organizations partnering with HMCBP LTD
           </p>
         </div>
 
@@ -118,9 +101,9 @@ export default function Sponsors() {
           {sponsors.map((sponsor, idx) => (
             <div
               key={idx}
-              className="bg-card border border-border rounded-lg p-8 space-y-4 hover:shadow-lg transition-shadow"
+              className="bg-card border border-border rounded-lg p-8 flex items-center justify-center min-h-40 hover:shadow-lg transition-shadow"
             >
-              <div className="h-20 relative mb-4">
+              <div className="relative w-full h-24">
                 <Image
                   src={sponsor.logo}
                   alt={sponsor.name}
@@ -128,25 +111,18 @@ export default function Sponsors() {
                   className="object-contain"
                 />
               </div>
-              <div>
-                <div className="inline-block bg-accent text-accent-foreground px-3 py-1 rounded text-xs font-semibold mb-2">
-                  {sponsor.category}
-                </div>
-                <h3 className="font-heading text-xl font-bold text-primary">{sponsor.name}</h3>
-                <p className="text-sm text-muted-foreground mt-2">{sponsor.description}</p>
-              </div>
             </div>
           ))}
         </div>
       </section>
 
       {/* Sponsorship Tiers */}
-      <section className="py-20 px-6 bg-primary/5 rounded-lg mx-6 md:mx-0">
+      <section className="py-20 px-6 bg-primary/5">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16 space-y-4">
-            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary">Partnership Tiers</h2>
+            <h2 className="font-heading text-4xl md:text-5xl font-bold text-primary">Partnership Opportunities</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Customize your sponsorship to match your organization&apos;s objectives and reach
+              Choose the package that best suits your organization&apos;s goals
             </p>
           </div>
 
@@ -154,7 +130,7 @@ export default function Sponsors() {
             {sponsorshipTiers.map((tier, idx) => (
               <div
                 key={idx}
-                className="bg-card border border-border rounded-lg p-8 space-y-6 hover:shadow-xl transition-shadow"
+                className="bg-card border border-border rounded-lg p-8 space-y-6 hover:shadow-xl transition-shadow flex flex-col"
               >
                 <div>
                   <h3 className="font-heading text-2xl font-bold text-primary mb-2">
@@ -162,7 +138,7 @@ export default function Sponsors() {
                   </h3>
                   <p className="text-accent font-bold text-lg">{tier.price}</p>
                 </div>
-                <ul className="space-y-4">
+                <ul className="space-y-4 flex-1">
                   {tier.benefits.map((benefit, hidx) => (
                     <li key={hidx} className="flex gap-3 items-start">
                       <Check size={20} className="text-accent flex-shrink-0 mt-0.5" />
@@ -178,34 +154,30 @@ export default function Sponsors() {
 
       {/* Partnership Benefits */}
       <section className="py-20 px-6 max-w-7xl mx-auto">
-        <div className="bg-card border border-border rounded-lg p-12 space-y-6">
-          <h2 className="font-heading text-3xl font-bold text-primary">Why Partner With Us?</h2>
+        <div className="bg-card border border-border rounded-lg p-12 space-y-8">
+          <h2 className="font-heading text-3xl font-bold text-primary">Why Partner With HMCBP LTD?</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
-                title: 'Reach & Impact',
-                description:
-                  'Access to 3,000+ international attendees and extensive media coverage across Europe and beyond.',
+                title: 'International Reach',
+                description: '3,000+ attendees from across Europe and strategic global visibility.',
               },
               {
-                title: 'Premium Association',
-                description:
-                  'Align your brand with world-class artistic programming and cultural excellence.',
+                title: 'Premium Brand Association',
+                description: 'Align with world-class artistic programming and cultural excellence.',
               },
               {
-                title: 'Hospitality & VIP Access',
-                description:
-                  'Exclusive VIP experiences, premium seating, and exclusive festival events.',
+                title: 'Comprehensive Exposure',
+                description: 'Multi-platform visibility including media, digital, and live events.',
               },
               {
-                title: 'Multi-Market Exposure',
-                description:
-                  'Visibility across UK theatre programming and international event platforms.',
+                title: 'Custom Solutions',
+                description: 'Flexible partnership packages tailored to your organization&apos;s objectives.',
               },
             ].map((benefit, idx) => (
-              <div key={idx} className="space-y-2">
+              <div key={idx} className="space-y-3">
                 <h3 className="font-heading text-lg font-bold text-primary">{benefit.title}</h3>
-                <p className="text-muted-foreground">{benefit.description}</p>
+                <p className="text-muted-foreground leading-relaxed">{benefit.description}</p>
               </div>
             ))}
           </div>
@@ -213,19 +185,19 @@ export default function Sponsors() {
       </section>
 
       {/* Contact CTA */}
-      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-16 px-6">
+      <section className="bg-gradient-to-r from-primary to-primary/80 text-primary-foreground py-16 px-6 mt-20">
         <div className="max-w-4xl mx-auto text-center space-y-6">
           <h2 className="font-heading text-3xl md:text-4xl font-bold">
-            Ready to Partner With Us?
+            Become a Partner Today
           </h2>
           <p className="text-lg text-primary-foreground/90">
-            Let&apos;s discuss how we can create a mutually beneficial partnership that elevates your brand.
+            Contact us to discuss partnership opportunities and custom sponsorship packages.
           </p>
           <a
             href="mailto:info@hmcbpltd.net"
             className="inline-block bg-accent text-accent-foreground px-8 py-3 rounded-lg font-medium hover:shadow-lg hover:scale-105 transition-all duration-300"
           >
-            Get in Touch
+            Contact Us
           </a>
         </div>
       </section>

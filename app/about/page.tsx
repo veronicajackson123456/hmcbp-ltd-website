@@ -60,12 +60,12 @@ export default function About() {
       <section className="bg-primary text-primary-foreground py-20 px-6">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-start">
-            <div className="relative h-96 rounded-lg overflow-hidden shadow-2xl order-2 md:order-1">
+            <div className="relative h-96 rounded-lg overflow-hidden shadow-2xl order-2 md:order-1 bg-muted">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-07%20at%209.36.51%20PM-6hnrsgxFIs8vw0lP9ETsRCOXmZ3lzL.jpeg"
                 alt="Óscar Contreras Bárcena, Founder & Director"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div className="space-y-6 order-1 md:order-2">

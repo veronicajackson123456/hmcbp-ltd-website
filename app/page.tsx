@@ -93,12 +93,12 @@ export default function Home() {
               key={idx}
               className="group bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-border"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-64 overflow-hidden bg-muted">
                 <Image
                   src={pillar.image}
                   alt={pillar.title}
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>

@@ -214,7 +214,7 @@ export default function Sponsors() {
                 description: 'Multi-platform visibility including media, digital, and live events.',
               },
               {
-                title: 'Custom Solutions',
+                title: 'Flexible Partnerships',
                 description: 'Flexible partnership packages tailored to your organization&apos;s objectives.',
               },
             ].map((benefit, idx) => (

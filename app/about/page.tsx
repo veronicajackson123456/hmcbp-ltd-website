@@ -62,8 +62,8 @@ export default function About() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <div className="relative h-96 rounded-lg overflow-hidden shadow-2xl order-2 md:order-1">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SALORGULLO-2oDIA-024-zAeZFiQcyloXxUUpUsYVnNTgDqWmVu.jpg"
-                alt="Óscar Contreras Bárcena"
+                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1516686474373-kU1QatkQv3dJxXiKa5nh0ycEhQVoeI.jpg"
+                alt="Óscar Contreras Bárcena, Founder & Director"
                 fill
                 className="object-cover"
               />

@@ -20,9 +20,6 @@ export default function DataProtection() {
           <h1 className="text-5xl md:text-6xl font-serif font-bold text-white mb-6 tracking-tight">
             Data Protection & GDPR Compliance
           </h1>
-          <p className="text-gray-400 text-sm">
-            Last updated: January 2025
-          </p>
         </div>
 
         <div className="prose prose-invert max-w-none space-y-8">

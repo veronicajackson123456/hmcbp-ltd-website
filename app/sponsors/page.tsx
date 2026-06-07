@@ -215,7 +215,7 @@ export default function Sponsors() {
               },
               {
                 title: 'Flexible Partnerships',
-                description: 'Flexible partnership packages tailored to your organization&apos;s objectives.',
+                description: 'Flexible partnership packages tailored to your organization\'s objectives.',
               },
             ].map((benefit, idx) => (
               <div key={idx} className="space-y-3">

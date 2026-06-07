@@ -86,19 +86,19 @@ export default function Home() {
             {
               title: 'About the Director',
               description: 'Led by Óscar Contreras Bárcena, with 15+ years of international theatre and event production expertise.',
-              image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1516686474373-kU1QatkQv3dJxXiKa5nh0ycEhQVoeI.jpg',
+              image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-07%20at%209.36.51%20PM-6hnrsgxFIs8vw0lP9ETsRCOXmZ3lzL.jpeg',
             },
           ].map((pillar, idx) => (
             <div
               key={idx}
               className="group bg-card rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 border border-border"
             >
-              <div className="relative h-64 overflow-hidden">
+              <div className="relative h-64 overflow-hidden bg-muted">
                 <Image
                   src={pillar.image}
                   alt={pillar.title}
                   fill
-                  className="object-cover group-hover:scale-110 transition-transform duration-300"
+                  className="object-contain group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
               </div>

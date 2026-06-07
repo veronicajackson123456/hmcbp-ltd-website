@@ -50,12 +50,14 @@ export default function Home() {
               Get Tickets
               <ChevronRight size={20} />
             </a>
-            <Link
-              href="/productions"
+            <a
+              href="https://www.youtube.com/watch?v=uT2kZmPCtLE&feature=youtu.be"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-primary-foreground text-primary px-8 py-3 rounded-lg font-medium hover:shadow-xl hover:scale-105 transition-all duration-300 border-2 border-accent"
             >
-              Explore Events
-            </Link>
+              Watch Highlights
+            </a>
           </div>
         </div>
       </section>

@@ -13,6 +13,7 @@ export default function Header() {
     { label: 'About Us', href: '/about' },
     { label: 'Productions', href: '/productions' },
     { label: 'Services', href: '/services' },
+    { label: 'Sponsors', href: '/sponsors' },
     { label: 'Contact', href: '/contact' },
   ]
 

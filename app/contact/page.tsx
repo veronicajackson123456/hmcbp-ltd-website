@@ -120,9 +120,9 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Partnerships */}
+            {/* Initiatives */}
             <div className="pt-8 border-t border-border">
-              <h3 className="font-heading font-bold text-primary mb-4">Our Initiatives</h3>
+              <h3 className="font-heading font-bold text-primary mb-4">Our Flagship Events</h3>
               <div className="space-y-3">
                 <a
                   href="https://salorgullo.com"
@@ -133,12 +133,12 @@ export default function Contact() {
                   → Salo Orgullo Website
                 </a>
                 <a
-                  href="https://nyoman.es"
+                  href="https://www.youtube.com/watch?v=uT2kZmPCtLE&feature=youtu.be"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-muted-foreground hover:text-accent transition-colors"
                 >
-                  → Nyoman Productions
+                  → Salo Orgullo Highlights Video
                 </a>
               </div>
             </div>

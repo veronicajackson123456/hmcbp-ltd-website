@@ -86,7 +86,7 @@ export default function Home() {
             {
               title: 'About the Director',
               description: 'Led by Óscar Contreras Bárcena, with 15+ years of international theatre and event production expertise.',
-              image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/1516686474373-kU1QatkQv3dJxXiKa5nh0ycEhQVoeI.jpg',
+              image: 'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202026-06-07%20at%209.36.51%20PM-6hnrsgxFIs8vw0lP9ETsRCOXmZ3lzL.jpeg',
             },
           ].map((pillar, idx) => (
             <div
